@@ -1,0 +1,7 @@
+<?php 
+
+	$page_output = [
+		'page_title' => 'Exchange office',
+		'view' => 'module-exchange.php'
+	]
+?>

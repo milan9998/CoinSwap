@@ -1,0 +1,335 @@
+body{
+	/*background-image: url(../public/images/bg.jpg) ;*/
+	background-color: #ffefe1;
+	background-size: 100% ;
+	/*background-position: center;*/
+	margin: 0;
+	
+}
+above-header {
+	display: block;
+	height: 0em;
+	padding-bottom: 0em;
+	text-align: right;
+
+}
+above-header a{
+	margin-right: 0.2em;
+}
+above-header a img {
+	width: auto;
+	height: 1em;
+	
+}
+above-header form{	
+	display: inline-block;
+}
+header{
+	display: block;
+	background: url(../public/images/logo.jpg) left center no-repeat ;
+	height: 6em;
+	background-size: contain;
+	
+}
+a{
+	background-size: contain;
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color:red;
+}
+nav.prelaz a:hover{
+	background-color: rgba(150, 150, 150, 0.6);
+}
+
+nav {
+	font-size: 25px; 
+	text-align: center;
+	border: 1.5px solid gray;
+	border-style: solid solid solid solid;
+	padding: 0.25em 0.5em;
+	margin-top: 0em;
+	background-color: rgba(160, 160, 160, 40%);
+	overflow: hidden;
+}
+nav a {
+	padding: 2em 1em;
+	margin-right: 0.5em;
+}
+
+/*border na desnoj strani na navigacionoj lenti*/
+/*nav a:not(:last-child){
+	border-right: 2px solid grey;
+}*/	
+
+/*
+nav a.active {
+	background-color: red;
+	color: white;
+}*/
+article{
+	font-size: 25pt;
+	color: black;
+	padding: 0.5em;
+}
+
+error {
+	font-weight: bold;
+	color: red;
+	font-size: 0.75em;
+	margin-bottom: 1em;
+	display: block;
+}
+
+
+
+h3{
+	font-size: 30px;
+}
+
+page-contact ul li a{
+	color: blue;
+	display: inline-block;
+}
+img {
+  margin-bottom: -4px;
+}
+
+
+/*Sve za tabelu*/
+
+page-exchange table.kurs {
+    border-collapse: collapse;
+    width: 70%;
+}
+
+page-exchange table.kurs thead th {
+    background-color: rgba(192, 192, 192);
+}
+
+page-exchange table.kurs th, td {
+    border: 2px solid black;
+    padding: 0.5em;
+}
+
+page-exchange table.kurs td:first-child {
+    width: 10em;
+}
+
+page-exchange table.kurs td:nth-child(2) {
+    text-align: center;
+	width: 5em;
+}
+
+page-exchange table.kurs td:nth-child(3){
+	text-align: right;
+}
+
+page-exchange table.kurs td:nth-child(4){
+	text-align: right;
+}
+
+page-exchange table.kurs td:last-child{
+	text-align: right;
+}
+
+page-exchange table.kurs tr:nth-child(even) {
+    background: rgba(204, 229, 255, 60%);
+}
+
+page-exchange table.kurs tr:nth-child(odd){
+	background: rgba(153, 204, 255);
+}
+
+page-exchange table.kurs td:nth-child(even) {
+    background: rgba(153, 255, 153, 35%);
+}
+
+
+
+page-exchange table.konverter tr, td {
+	/*border-collapse: collapse;*/
+	border: none;
+}
+
+@media only screen and (max-width: 700px) {
+	body{
+		background-image: none;
+		background-color: lightgreen;
+	}
+}
+
+
+
+footer {
+	text-align: center;
+	/*height: 1.5em;*/
+	margin-top: 25em;
+	padding-top: 0.5em;
+	border-top: 1px solid gray;
+	background-color: rgba(160, 160, 160, 40%);
+}
+footer div {
+	display: block;
+}
+
+
+/*----------------------page contact--------------------------------*/
+
+
+
+page-contact form input,
+page-contact form textarea,
+page-contact form button{
+	display: block;
+	/*width: 30%;
+	font-size: 25px;*/
+}
+page-contact form button{
+	width: 5%;
+	margin-top: 1em;
+}
+page-contact form input,
+page-contact form textarea {
+	width: 35%;
+}
+page-contact form textarea {
+	height: 10em;
+}
+
+
+
+
+/*---------------------page login------------------------------------*/
+page-login form {
+	/*border: 1px solid grey;*/
+	width: 30%;
+	
+}
+page-login form input{
+	width: 70%;
+	border: 1px solid green;
+	padding: 12px 20px;
+}
+page-login form input,
+page-login form button{
+	display: block;
+	
+	
+}
+page-login form label{
+	font-size: 25px;
+}
+page-login form button{ 
+	margin-top: 0.5em;
+	width: 50%;
+	padding: 15px;
+	background-color: #f0f0f0;
+	color: red;
+	border: 1px solid blue;
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+page-login form button:hover{
+	background-color: lightblue;
+	cursor:pointer;
+}
+
+
+/*---------------------page register------------------------------------*/
+
+page-register form {
+	/*border: 1px solid grey;*/
+	width: 30%;
+	
+}
+page-register form input{
+	width: 70%;
+	border: 1px solid green;
+	padding: 12px 20px;
+}
+page-register form input,
+page-register form button{
+	display: block;
+	
+	
+}
+page-register form label{
+	font-size: 25px;
+}
+page-register form button{ 
+	margin-top: 0.5em;
+	width: 50%;
+	padding: 15px;
+	background-color: #f0f0f0;
+	color: red;
+	border: 1px solid blue;
+	border-radius: 10px;
+	margin-left: 50px;
+}
+
+page-register form button:hover{
+	background-color: lightblue;
+	cursor:pointer;
+}
+
+
+
+/*
+page-office{
+	height: 60%;
+}
+*/
+page-contact iframe{
+	display: inline-block;
+	width: 100%;
+	height: 600px;
+	border: 1px solid silver;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*kontakt-strana iframe {
+	display: inline-block;
+	width: 100%;
+	height: 60%;
+	border: 1px solid silver;
+}*/
+/*
+page-contac form div{
+	position:relative;
+	top: 0.5em;
+	left: 29em; 
+	align: right;
+	cursor: pointer;
+	 
+}*/
+

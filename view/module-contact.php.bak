@@ -1,0 +1,21 @@
+	<page-contact>
+		<?php if (!empty($message)): ?>
+		<a href="./index.php?module=contact">Back to Contact form</a>
+		<?php else: ?>
+		<form method="post">
+			<label>First name</label>*
+			<input type="text" name="name" value="<?= $_POST['name'] ?? '' ?>">
+			
+			<label>Last name</label>*
+			<input type="text" name="lastname" value="<?= $_POST['lastname'] ?? '' ?>">
+			
+			<label>Email</label>*
+			<input type="email" name="email"  value="<?= $_POST['email'] ?? '' ?>">
+			
+			<label>Message</label>
+			<textarea name="message"><?= $_POST['message'] ?? '' ?></textarea>
+			
+			<button id="button">Send</button>
+		</form>
+		<?php endif; ?>
+	</page-contact>

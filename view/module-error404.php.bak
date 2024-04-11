@@ -1,0 +1,4 @@
+<page-error404>
+	<div>Page not found</div>
+	<a href="./index.php">Vrati se na početnu stranu</a>
+</page-error404>
